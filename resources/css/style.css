@@ -105,3 +105,61 @@ nav li {
     border-radius: 5px;
     color: white;
 }
+
+.first-section {
+    background-color: white;
+    border-top: 1px solid grey;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-container {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.left-container img {
+    width: 100%;
+}
+
+.left-container h2 {
+    padding-top: 32px;
+    font-weight: bolder;
+    font-size: 2.4375rem;
+}
+
+.left-container  p {
+    padding: 24px 0;
+    font-size: 1.15rem;
+}
+
+#para-credit { 
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
+.first-right {
+    border-left: 1px solid grey;
+    width: 40%;
+}
+
+.event {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.image-container {
+    width: 35%;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+}
+
+.event-desc {
+    margin: auto 0;
+    padding-left: 16px;
+}
