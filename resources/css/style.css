@@ -70,6 +70,9 @@ nav li {
     padding: 8px;
 }
 
+
+/*Banner Section*/
+
 .banner {
     background-image: url("../images/banner.jpg");
     background-size: 100%;
@@ -86,9 +89,8 @@ nav li {
     padding-top: 10px;
     align-items: center;
     left: 75px;
-    background-color: rgba(220,220,220, 60%);
+    background-color: rgba(220,220,220, 70%);
     line-height: 1.5;
-    border-radius: 5px;
     margin: 0;
 }
 
@@ -102,9 +104,11 @@ nav li {
     background-color: rgb(75,75,75);
     padding: 10px 50px;
     font-size: 18px;
-    border-radius: 5px;
     color: white;
 }
+
+
+/*Information Section*/
 
 .first-section {
     background-color: white;
@@ -164,6 +168,23 @@ nav li {
     padding-left: 16px;
     width: 65%;
 }
+
+.event-desc h4 {
+    font-size: 1.6rem;
+}
+
+.event-desc p {
+    font-size: 1.1rem;
+}
+
+.thesis-event-desc a {
+    font-size: 1.1rem;
+    text-decoration-style: none;
+    color: #2986ff;
+}
+
+
+/*Learning Section*/
 
 .learning-section {
     display: block;
@@ -249,9 +270,81 @@ nav li {
     border-top: 1px solid lightgrey;
 }
 
+
+/*Thesis Section*/
+
 .thesis-section {
-    border-top: lightgrey;
+    border-top: 1px solid lightgrey;
     background-color: white;
+}
+
+.thesis-section h2 {
+    text-align: center;
+    padding: 32px 0;
+    font-weight: bolder;
+    font-size: 2.4375rem;
+    width: 100%;
+}
+
+.thesis-content {
+    display: flex;
+    width: 100%;
+}
+
+.thesis-left-container {
+    padding: 0px 24px 32px 24px;
+    width: 60%;
+}
+
+.thesis-left-container video {
+    width: 100%;
+    height: auto;
+}
+
+.thesis-left-container h4 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 12px 0;
+}
+
+.thesis-left-container p {
+    font-size: 1.15rem;
+}
+
+.these-right-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.thesis-event {
+    padding: 16px;
+    display: flex;
+}
+
+.thesis-image-container {
+    width: 35%;
+    margin-right: 16px;
+}
+
+.thesis-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.thesis-event-desc {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis-event-desc h4 {
+    font-size: 1.6rem;
+}
+
+.thesis-event-desc p {
+    font-size: 1.1rem;
 }
 
 
