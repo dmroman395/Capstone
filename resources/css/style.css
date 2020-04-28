@@ -6,7 +6,7 @@
 
 .body-container {
     display: flex;
-    background-color: #bdbdbd;
+    background-color: #ececec;
     justify-content: center ; 
     width: 100%;
 }
@@ -114,7 +114,7 @@ nav li {
 }
 
 .left-container {
-    padding: 32px 24px;
+    padding: 32px 24px 0px 24px;
     width: 60%;
 }
 
@@ -139,14 +139,14 @@ nav li {
 }
 
 .first-right {
-    border-left: 1px solid grey;
+    border-left: 1px solid lightgrey;
     width: 40%;
 }
 
 .event {
     display: flex;
     padding: 16px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     width: 100%;
 }
 
@@ -162,4 +162,28 @@ nav li {
 .event-desc {
     margin: auto 0;
     padding-left: 16px;
+    width: 65%;
+}
+
+.learning-section {
+    display: block;
+}
+
+.learning-section h2 {
+    text-align: center;
+    padding: 32px 0;
+    font-weight: bolder;
+    font-size: 2.4375rem;
+    width: 100%;
+}
+
+.courses-grid {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 150px;
+}
+
+.course {
+    padding: 25px;;
 }
